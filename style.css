@@ -1,11 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 .sparkle {
-     box-shadow: 1px 1px 3px 2px #E6E8FA; -webkit-box-shadow: 1px 1px 3px 2px #E6E8FA;-moz-box-shadow:1px 1px 3px 2px #E6E8FA;
+    padding-top: 100px;
 }
 
 .navbar {
     background-color: #871F78;
+    position:fixed;
+    width: 100%;
+    z-index: 100;
 }
 
 .navbar-brand{
     color:#ffffff !important;
+}
+
+.col-md-10 {
+    margin: auto;
+}
+
+p, h3, li {
+    color: #ffffff;
+    font-family: 'Lora', serif;
+}
+
+.photo {
+    height:600px;
+    width:400px;
 }
