@@ -18,9 +18,19 @@
 
 .col-md-10 {
     margin: auto;
+    padding-bottom: 10px;
 }
 
-p, h3, li {
+.col-md-6 {
+    padding-bottom: 10px;
+}
+
+.col-md-10, .col-md-12 {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+p, h3, li, h5 {
     color: #ffffff;
     font-family: 'Lora', serif;
 }
@@ -28,4 +38,10 @@ p, h3, li {
 .photo {
     height:600px;
     width:400px;
+}
+
+.footer {
+    border: 1px solid black;
+    background-color: #871F78;
+    text-align: center;
 }
